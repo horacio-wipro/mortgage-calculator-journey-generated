@@ -1,0 +1,30 @@
+.numericInput,
+.selection {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.selection {
+  border: 0;
+  outline: 0;
+  font-family: var(--copy-bold);
+  font-size: var(--mortgagessecurelloydsbankcouk-inter-bold-18-size);
+  background-color: transparent;
+  height: 24px;
+  flex: 1;
+  line-height: 24px;
+  color: var(--mortgagessecurelloydsbankcouk-shark);
+  text-align: left;
+  min-width: 190px;
+  padding: 0;
+}
+.numericInput {
+  background-color: var(--color-white-solid);
+  border: 1px solid var(--color-grey-31);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-lgi);
+  min-height: var(--height-48);
+}

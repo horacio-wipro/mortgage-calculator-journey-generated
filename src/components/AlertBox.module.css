@@ -1,0 +1,54 @@
+.alertbox {
+  width: 392px;
+  background-color: #ededed;
+  padding: 32px;
+  box-sizing: border-box;
+  font-size: 24px;
+  color: #333333;
+  font-family: "Lloyds Bank Jack Web", sans-serif;
+}
+
+/* Header section */
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 4px;
+  margin-bottom: 16px;
+}
+
+.svgIcon {
+  height: 28px;
+  width: 28px;
+}
+
+.heading3 {
+  line-height: 28px;
+}
+
+/* Content section */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.paragraph {
+  margin: 0 0 12px 0;
+  font-size: 18px;
+  line-height: 24px;
+  align-self: stretch;
+  color: #505050;
+  font-family: "Lloyds Bank Jack Web";
+  position: relative;
+  text-align: left;
+}
+
+.paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+/* Button styling */
+.button {
+  min-width: 100%;
+}

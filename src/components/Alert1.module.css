@@ -1,0 +1,21 @@
+.svgIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.alert1 {
+  position: relative;
+  line-height: 24px;
+}
+.alert {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  text-align: left;
+  font-size: 15px;
+  color: #e52b50;
+  font-family: "Inter", sans-serif;
+}
